@@ -1,0 +1,76 @@
+Latest Piler master from Bitbucket
+Fully optimised and secured server
+MariaDB 10.x
+CentOS 64bit
+
+VPS
+8GB Ram
+4x vCPU
+Hard-Raid 5 HDD with LVM + ext3
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~ new from imap @ 10 000 mails (non duplicates) ~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+##############################################
+Mail pilerimport ( Default ) Rate: 8.90 m/s
+##############################################
+bash piler-import-dir.sh /datastore/dir2
+--------------------------------------------------------
+Size: 3.6G /datastore/dir2
+Total Msg: 10000
+Runtime: 0:00:18:44 | Rate: 8.90 m/s | 533.8 m/m | 32028 m/h | 768683 m/d
+
+##############################################
+eXtremeSHOK piler-import (16 Jobs) Rate: 39.68 m/s
+##############################################
+bash xshok-piler-import-dir.sh -m /datastore/dir3 -j 16
+--------------------------------------------------------
+Size: 3.5G /datastore/dir3/
+Total Msg: 10000 | Ignored: 0
+Runtime: 0:00:04:12 | Rate: 39.68 m/s | 2381.0 m/m | 142857 m/h | 3428571 m/d
+
+##############################################
+eXtremeSHOK piler-import (32 Jobs) Rate: 43.29 m/s
+##############################################
+   bash xshok-piler-import-dir.sh -m /datastore/dir4 -j 32
+--------------------------------------------------------
+Size: 3.7G /datastore/dir4/
+Total Msg: 10000 | Ignored: 0
+Runtime: 0:00:03:51 | Rate: 43.29 m/s | 2597.4 m/m | 155844 m/h | 3740260 m/d
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~ 100% duplicates @ 10 000 mails ~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+##############################################
+Mail pilerimport ( Default ) Rate: 125.00 m/s
+##############################################
+bash piler-import-dir.sh /datastore/dir1
+--------------------------------------------------------
+Size: 2.4G /datastore/dir1
+Total Msg: 10000
+Runtime: 0:00:01:20 | Rate: 125.00 m/s | 7500.0 m/m | 450000 m/h | 10800000 m/d
+
+##############################################
+eXtremeSHOK piler-import (16 Jobs) Rate: 181.82 m/s
+##############################################
+bash xshok-piler-import-dir.sh -m /datastore/dir1 -j 16
+--------------------------------------------------------
+Size: 2.4G /datastore/dir1/
+Total Msg: 10000 | Ignored: 0
+Runtime: 0:00:00:55 | Rate: 181.82 m/s | 10909.1 m/m | 654545 m/h | 15709091 m/d
+
+##############################################
+eXtremeSHOK piler-import (16 Jobs) Rate: 185.19 m/s
+##############################################
+bash xshok-piler-import-dir.sh -m /datastore/dir1 -j 32
+--------------------------------------------------------
+Size: 2.4G /datastore/dir1/
+Total Msg: 10000 | Ignored: 0
+Runtime: 0:00:00:54 | Rate: 185.19 m/s | 11111.1 m/m | 666667 m/h | 16000000 m/d
+
+
+##############################################
+      Powered By https://eXtremeSHOK.com
+##############################################

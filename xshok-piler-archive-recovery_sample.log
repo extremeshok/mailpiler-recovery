@@ -1,0 +1,75 @@
+./xshok-piler-archive-recovery.sh.x --key extremeshok --archive /store/ --output /recovered/ --config extremeshok --temp /tmp/xshok -r -e -n 10000
+################################################################################
+ eXtremeSHOK.com Piler/Mailpiler Archive Recovery
+ Version: v4.0.5 (6 May 2020)
+ Copyright (c) Adrian Jon Kriel :: admin@extremeshok.com
+################################################################################
+This software is furnished under a license and may be used and copied only in accordance with the terms of such license and with the inclusion of the above copyright notice. This software or any other copies thereof may not be provided or otherwise made available to any other person or entity. No title to and ownership of the software is  hereby transferred. You may not reverse engineer, decompile, defeat license encryption mechanisms, or disassemble this software product or software product license. eXtremeSHOK.com may terminate this license if you do not comply with any of the terms and conditions set forth in our end user license agreement (EULA). In such event, licensee agrees to return licensor or destroy all copies of software upon termination of the license. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+################################################################################
+Licensed to : ------------- :: -------------
+################################################################################
+Validating License: D C CE SU SI SC
+################################################################################
+======================================
+Loading config: extremeshok/piler.conf
+======================================
+====================
+Runtime Options
+====================
+Archive Dir: /store
+Temp Dir: /tmp/xshok
+Output Dir: /recovered
+Work Dir: /recovered
+Continue file: /recovered/continue.tmp
+Message Decryption: Enabled
+Recover Debuplicated: Enabled
+Jobs (work threads): 22
+Max Recovered Mails: 10000
+SQL Export: Enabled
+
+--------------------------
+Sleeping for 5 seconds....
+--------------------------
+===============
+= RESCUE MODE =
+===============
+-----------------------------------------------
+--------------|| S T A R T E D ||--------------
+-----------------------------------------------
+---------------------------------------
+Archive: /store ===> Output: /recovered
+---------------------------------------
+Cnt: 500 | Msg: 499 | Ign: 0 | Time: 0:00:00:10 | Rate: 0.00 m/s | Avg: 49.90 m/s | 2994.0 m/m | 179640 m/h | 4311360 m/d
+Cnt: 1000 | Msg: 999 | Ign: 0 | Time: 0:00:00:15 | Rate: 100.00 m/s | Avg: 66.60 m/s | 3996.0 m/m | 239760 m/h | 5754240 m/d
+Cnt: 1500 | Msg: 1499 | Ign: 0 | Time: 0:00:00:19 | Rate: 125.00 m/s | Avg: 78.89 m/s | 4733.7 m/m | 284021 m/h | 6816505 m/d
+Cnt: 2000 | Msg: 1999 | Ign: 0 | Time: 0:00:00:23 | Rate: 125.00 m/s | Avg: 86.91 m/s | 5214.8 m/m | 312887 m/h | 7509287 m/d
+Cnt: 2500 | Msg: 2499 | Ign: 0 | Time: 0:00:00:27 | Rate: 125.00 m/s | Avg: 92.56 m/s | 5553.3 m/m | 333200 m/h | 7996800 m/d
+Cnt: 3000 | Msg: 2999 | Ign: 0 | Time: 0:00:00:32 | Rate: 100.00 m/s | Avg: 93.72 m/s | 5623.1 m/m | 337388 m/h | 8097300 m/d
+Cnt: 3500 | Msg: 3499 | Ign: 0 | Time: 0:00:00:36 | Rate: 125.00 m/s | Avg: 97.19 m/s | 5831.7 m/m | 349900 m/h | 8397600 m/d
+Cnt: 4000 | Msg: 3999 | Ign: 0 | Time: 0:00:00:40 | Rate: 125.00 m/s | Avg: 99.97 m/s | 5998.5 m/m | 359910 m/h | 8637840 m/d
+Cnt: 4500 | Msg: 4499 | Ign: 0 | Time: 0:00:00:45 | Rate: 100.00 m/s | Avg: 99.98 m/s | 5998.7 m/m | 359920 m/h | 8638080 m/d
+Cnt: 5000 | Msg: 4999 | Ign: 0 | Time: 0:00:00:51 | Rate: 83.33 m/s | Avg: 98.02 m/s | 5881.2 m/m | 352871 m/h | 8468894 m/d
+Cnt: 5500 | Msg: 5499 | Ign: 0 | Time: 0:00:00:55 | Rate: 125.00 m/s | Avg: 99.98 m/s | 5998.9 m/m | 359935 m/h | 8638429 m/d
+Cnt: 6000 | Msg: 5999 | Ign: 0 | Time: 0:00:01:00 | Rate: 100.00 m/s | Avg: 99.98 m/s | 5999.0 m/m | 359940 m/h | 8638560 m/d
+Cnt: 6500 | Msg: 6499 | Ign: 0 | Time: 0:00:01:05 | Rate: 100.00 m/s | Avg: 99.98 m/s | 5999.1 m/m | 359945 m/h | 8638671 m/d
+Cnt: 7000 | Msg: 6999 | Ign: 0 | Time: 0:00:01:09 | Rate: 125.00 m/s | Avg: 101.43 m/s | 6086.1 m/m | 365165 m/h | 8763965 m/d
+Cnt: 7500 | Msg: 7499 | Ign: 0 | Time: 0:00:01:15 | Rate: 83.33 m/s | Avg: 99.99 m/s | 5999.2 m/m | 359952 m/h | 8638848 m/d
+Cnt: 8000 | Msg: 7999 | Ign: 0 | Time: 0:00:01:19 | Rate: 125.00 m/s | Avg: 101.25 m/s | 6075.2 m/m | 364511 m/h | 8748273 m/d
+Cnt: 8500 | Msg: 8499 | Ign: 0 | Time: 0:00:01:23 | Rate: 125.00 m/s | Avg: 102.40 m/s | 6143.9 m/m | 368631 m/h | 8847152 m/d
+Cnt: 9000 | Msg: 8999 | Ign: 0 | Time: 0:00:01:27 | Rate: 125.00 m/s | Avg: 103.44 m/s | 6206.2 m/m | 372372 m/h | 8936938 m/d
+Cnt: 9500 | Msg: 9499 | Ign: 0 | Time: 0:00:01:31 | Rate: 125.00 m/s | Avg: 104.38 m/s | 6263.1 m/m | 375785 m/h | 9018831 m/d
+Cnt: 10000 | Msg: 9999 | Ign: 0 | Time: 0:00:01:35 | Rate: 125.00 m/s | Avg: 105.25 m/s | 6315.2 m/m | 378909 m/h | 9093827 m/d
+-------------- WAITING FOR JOBS TO COMPLETE --------------
+Saving counter to file: /recovered/continue.tmp
+Last Directory: /store/00/55b/f3/20
+Last File:
+Output Dir: /recovered
+Work Dir: /recovered
+---------------------------------------------------
+--------------|| C O M P L E T E D ||--------------
+---------------------------------------------------
+Counter (Cnt): 10000 | Ignored (Ign): 0 | Recovered (Msg): 10000
+Time: 0:00:01:36 | Average: 104.17 m/s | 6250.0 m/m | 375000 m/h | 9000000 m/d
+##############################################
+      Powered By https://eXtremeSHOK.com
+##############################################
